@@ -1,7 +1,12 @@
 ﻿@page "/dodaj-komentarz"
+
+@rendermode InteractiveServer
+
 @using static ChmuryProj.Api.Controllers.KomentarzeController
 @inject HttpClient Http
 @inject NavigationManager Navigation
+
+
 <PageTitle>Dodaj komentarz</PageTitle>
 <h3>Dodaj nowy komentarz</h3>
 <EditForm Model="@newKomentarz" OnValidSubmit="@HandleSubmit" FormName="AddCommentForm">

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ogPZ1m9zuSI=",
+  "dgSpecHash": "/Ic8wJghrGk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jcob\\Desktop\\Gowno\\ChmuryProj.Api\\ChmuryProj.Api.csproj",
+  "projectFilePath": "C:\\Users\\Jcob\\Desktop\\Chmury\\ChmuryProj.Api\\ChmuryProj.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jcob\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Jcob\\.nuget\\packages\\azure.identity\\1.13.2\\azure.identity.1.13.2.nupkg.sha512",

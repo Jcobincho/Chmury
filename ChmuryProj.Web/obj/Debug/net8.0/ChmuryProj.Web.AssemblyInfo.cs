@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChmuryProj.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd052a66e34684df2ace7301484c41bc5280a5cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChmuryProj.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChmuryProj.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

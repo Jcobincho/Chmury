@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jcob\\Desktop\\Gowno\\ChmuryProj.Api\\ChmuryProj.Api.csproj": {}
+    "C:\\Users\\Jcob\\Desktop\\Chmury\\ChmuryProj.Api\\ChmuryProj.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jcob\\Desktop\\Gowno\\ChmuryProj.Api\\ChmuryProj.Api.csproj": {
+    "C:\\Users\\Jcob\\Desktop\\Chmury\\ChmuryProj.Api\\ChmuryProj.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jcob\\Desktop\\Gowno\\ChmuryProj.Api\\ChmuryProj.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Jcob\\Desktop\\Chmury\\ChmuryProj.Api\\ChmuryProj.Api.csproj",
         "projectName": "ChmuryProj.Api",
-        "projectPath": "C:\\Users\\Jcob\\Desktop\\Gowno\\ChmuryProj.Api\\ChmuryProj.Api.csproj",
+        "projectPath": "C:\\Users\\Jcob\\Desktop\\Chmury\\ChmuryProj.Api\\ChmuryProj.Api.csproj",
         "packagesPath": "C:\\Users\\Jcob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jcob\\Desktop\\Gowno\\ChmuryProj.Api\\obj\\",
+        "outputPath": "C:\\Users\\Jcob\\Desktop\\Chmury\\ChmuryProj.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
