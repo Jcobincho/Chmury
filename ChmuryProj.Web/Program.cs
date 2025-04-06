@@ -13,7 +13,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped(sp =>
     new HttpClient
     {
-        BaseAddress = new Uri("https://localhost:7149") // Podaj port Twojego API (np. 7109)
+        BaseAddress = new Uri("https://chmuryprojapi20250406210134.azurewebsites.net/") // Podaj port Twojego API (np. 7109)
     });
 
 var app = builder.Build();

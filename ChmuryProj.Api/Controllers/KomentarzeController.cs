@@ -15,7 +15,7 @@ namespace ChmuryProj.Api.Controllers
             _context = context;
         }
 
-        [HttpPost("xd")]
+        [HttpPost()]
         public async Task<IActionResult> AddKomentarz([FromBody] KomentarzPost komentarz)
         {
             KomentarzEntity komentarzEntity = new KomentarzEntity()
@@ -30,7 +30,7 @@ namespace ChmuryProj.Api.Controllers
             return Ok();
         }
 
-        [HttpGet("dx")]
+        [HttpGet()]
         public async Task<ActionResult<KomentarzEntity>> GetKomentarze()
         {
             var kometarze = await _context.Komentarze.ToListAsync();

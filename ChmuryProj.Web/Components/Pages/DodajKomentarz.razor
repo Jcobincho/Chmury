@@ -25,6 +25,7 @@
     <button type="submit" class="btn btn-success mt-3">Dodaj komentarz</button>
     <a href="/komentarze" class="btn btn-secondary mt-3">Anuluj</a>
 </EditForm>
+
 @code {
     private KomentarzPost newKomentarz = new();
 
@@ -35,7 +36,7 @@
 
         try
         {
-            var response = await Http.PostAsJsonAsync("/api/Komentarze/xd", newKomentarz);
+            var response = await Http.PostAsJsonAsync("https://chmuryprojapi20250406210134.azurewebsites.net/api/Komentarze/xd", newKomentarz);
             if (response.IsSuccessStatusCode)
             {
                 Navigation.NavigateTo("/komentarze");

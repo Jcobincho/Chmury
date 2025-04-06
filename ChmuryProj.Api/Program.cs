@@ -58,3 +58,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+//Server=tcp:studprojnachmury.database.windows.net,1433;Initial Catalog=StudProjDb;Authentication=Active Directory Interactive;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;

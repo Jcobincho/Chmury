@@ -48,7 +48,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        var response = await Http.GetFromJsonAsync<List<KomentarzEntity>>("/api/Komentarze/dx");
+        var response = await Http.GetFromJsonAsync<List<KomentarzEntity>>("https://chmuryprojapi20250406210134.azurewebsites.net/api/Komentarze");
         komentarze = response ?? new();
     }
 }
