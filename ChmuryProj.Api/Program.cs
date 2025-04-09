@@ -34,14 +34,12 @@ builder.Services.AddControllers()
 
 // Reszta konfiguracji...
 
-builder.Services.AddCors(conf =>
+builder.Services.AddCors(options =>
 {
-    conf.AddDefaultPolicy(policy =>
-    {
-        policy.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
-    });
+    options.AddPolicy("AllowBlazorClient",
+        policy => policy.WithOrigins("https://blue-glacier-070b1fd03.6.azurestaticapps.net")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
 });
 
 var app = builder.Build();
@@ -53,7 +51,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors();
+app.UseCors("AllowBlazorClient");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
